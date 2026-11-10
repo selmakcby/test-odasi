@@ -116,7 +116,7 @@ Ajan değil, birçok modele tek anahtarla bağlanan bir kapı. Asıl ayar anahta
 
 Bir repoyu bilgisayarına almadan önce linkini yapıştır; kodu çalıştırmadan, indirmeden okur ve ne yapabileceğini sade dille söyler. Bir şeyi tam tarayamadıysa asla "temiz" demez.
 
-👉 BYC_LINKI_BURAYA
+👉 https://before-you-clone.vercel.app
 
 Test odasının yerine geçmez: 10 saniyelik ilk eleme. Şüpheli derse ya da büyük, çok paketli bir repoyu gerçekten kullanacaksan asıl cevap test odasında.
 
