@@ -2,7 +2,7 @@
 
 Bir GitHub reposu, skill, MCP ya da araç gördün ve denemek istiyorsun. `npm install` dediğin anda o repo **senin bilgisayarında, senin anahtarlarınla** çalışır. Bu repo, aynı şeyi önce interneti kapalı, kullan-at bir **test odasında** yapmanın adımlarını, videodaki promptları ve ajan ayarlarını topluyor.
 
-📺 Video: **Ajan Sistemlerinde Güvenlik** (YouTube, Selma)
+📺 Video: [Ajan Sistemlerinde Güvenlik](https://youtu.be/kgLBhJ-WQCA)
 
 ---
 
