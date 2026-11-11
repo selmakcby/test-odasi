@@ -90,9 +90,11 @@ Giriş ve çıkış hook'ları (videodaki bekçiler): [selmakcby/claude-bekci](h
 ### Codex
 Üç seviye var: `read-only` (sadece okur), `workspace-write` (klasöre yazar), `danger-full-access` (tam erişim). Çalıştığı yerde internet varsayılan olarak kapalı ve bunu işletim sistemi uygular. Tanımadığın repoda:
 ```bash
-codex --sandbox read-only --ask-for-approval untrusted
+codex --sandbox read-only --ask-for-approval on-request
 ```
-Hiçbir şey sormayan modu sadece kapalı bir kutuda kullan.
+Salt-okuma modunda Codex dosya yazamaz ve ağa çıkamaz; bunlardan birini yapmak isterse sana sorar. Hiçbir şey sormayan modu (`--ask-for-approval never` ya da `--dangerously-bypass-approvals-and-sandbox`) sadece kapalı bir kutuda kullan.
+
+> Not: Eski Codex sürümlerinde `--ask-for-approval untrusted` seçeneği vardı (videoda o geçiyor). Codex 0.155'te kaldırıldı; yukarıdaki komut güncel hâli.
 
 ### Hermes Agent
 - Varsayılan ayarda riskli bulmadığı komutu yardımcı bir model kendisi onaylıyor. Tanımadığın işte onayı **her seferinde sana soran moda** al (approvals → manual).
